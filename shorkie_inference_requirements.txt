@@ -1,0 +1,11 @@
+# Shorkie ybench pure-PyTorch inference runtime overlay
+# Host: l20gpu01
+# Python: 3.11.15
+# Venv: /nvme1/home/bps01/cuichen/projects/Evo2Distill/runtime/shorkie_ybench_py311_env
+# Base environment: /nvme1/home/bps01/miniconda3/envs/evo2
+# This venv was created with --system-site-packages; install the Evo2 base
+# environment first, then install the two local overlay packages below.
+# Shorkie repository commit: 71bf5164c4f4448827cfc0d3b4715b736a3e6ba8
+# ybench commit: f83c1254a3c3c86ff0729405141dc49da1caa791
+h5py==3.11.0
+pysam==0.22.1
